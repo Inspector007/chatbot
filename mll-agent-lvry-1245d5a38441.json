@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mll-agent-lvry",
+  "private_key_id": "1245d5a384416bba85360b276f04dc044346b9fc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJjHTLLH4Klhrz\nQiFw7UIXMIRhKkJNtNQS4vxd3uDomyBS/e7zyYkA55HHqcskUATRanFNsN9MOKlL\nNqezvSOWnlCpba3tsbhxF7Ptw5nRmDR6s8/wk0yVpBeFRevemUxoaAjrNB9NsM3n\nbvw9YEptjiBu/dzgwx0ZZ40+I8KxukGlnfZ5jzr/3UmOaibax6o0ZhNBTIMU4tC2\n5C1n+cgSqAhzQ38kIbSde78+sM2EokN0sln+UtR5vtsvpbSEpwMJSDXvbBPTchq8\nvXCphMdZwFObmwnFvbJdXN8/UCAlub1/AMYrYoNBt9/AAQqgXJdAMypaw1pzK2Yg\nspNyD2LrAgMBAAECggEAB8yPmG0YU4CLem5MrPoBXLRb6wafmjItIq315gwB1/5o\nuc1pubVKv+Y2FevUGIugJBpiWAdIHML0ihyLUME451Mo++VqnZAK+xVXuROgmCOz\npCvhGAYbKI84+cdC4VI9Sqz7614Q+AinbxU0XYukVajySFk6etgSADGpnYX0urvQ\nw7F/DHSHvWkRNuF1SLjf3ptKvDKhNTA9ged29ZX5lVTpqKgrpP9SF7goXwiG3mGN\nIhgOgSzL451AE9LWH5y4kE20KtHoPyrdvzl70SWtM/A8x/Gf6rbx1/vKQeR+CARu\n9V9Qhr38p07u+LhIN7V+VtAfmmsdZRZUe0BoepyVAQKBgQDvnaCSh0wVdDq557SL\nkfXxP1yHJLe0CVWYPIjy4Z4czCcvxH8ehRfqmW7uSj6XiUVxqdGbayUMud/hJwg/\ntshCYc1O46cuEr8dAOcbfg5y3Gg4leoEyE6Bz7rgLD6baojLt1DFupKOP1OOPEuH\nOGBsqi9Ko4LocKwEfJpOTWo0+wKBgQDXVHsYPdAMUJnREdi4IwydjVlchDdkds/6\nFBm6azXMDVFNN96X0mxnls0CTGF2sqOH74CVQ7QiJ+7BZTELkqFcAhpZqw4TrQDU\nVik0mfLczlwSHuMaWzo8xmbRRuESaJH00/mz6ufXZvnkhwPAyFEoiT/LRRwfnfuW\nx/EhTiDG0QKBgA0ZohDAwuEdZKSLTWygA0E4RJfC4yQ9qmdTT+1vdlR+uNm8tXJ2\ntlMGJnFyr69bOue28BW+Kt1iQCIwHxxUoug2LqJUgexb7ATq6revEZ0n/a6yS4QN\na3VfZQkigh2/GlGA6TKWO7L5NVk+ZKa051ipiUJcZCjPGCh6o3kKdHcHAoGBAJES\nz+QjMRo664baGULmCkfTxZL5WUCMc86u4C6isJoLlu0JaSSslnCsPu7/euK3tEmP\naPgnpyMj+E2/2W1Mmv4cRJiJEHDdLCPi8NwJpIBzX8CtoqBNOk1b9kWlFVqLrVpf\nvmojJ5QOQupetH6b92HyJlLS+wGqNKj/iEvCEX8hAoGADeMXmsoAKYPSL8KkqVUM\njWAA9zDvRjuNhNNj4/YSjVVMHwjboJpP7ocOdzY0WmxXFEhCtsdmEe/NWHT1kldH\nKx0D28Dcle4uoAZI5JWbOXPtdd2Wvqehm+KuX1ik0RRrlgwEJp/PDpbvHync+1Kw\nXq0I35QwIEWKHa7XO0q78Hg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mllagent@mll-agent-lvry.iam.gserviceaccount.com",
+  "client_id": "105366965279756188102",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mllagent%40mll-agent-lvry.iam.gserviceaccount.com"
+}
