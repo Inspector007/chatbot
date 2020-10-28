@@ -8,6 +8,12 @@ app = Flask(__name__)
 def index():
     return "Hello, World!"
 
+@app.route('/webhook', methods=['POST'])
+def respond():
+    print(request.json);
+    return Response(status=200)
+    
+
 @app.route("/sms", methods=['POST'])
 def reply():
 
