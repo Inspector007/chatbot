@@ -27,9 +27,10 @@ def kpiinsertion(contactno,userid,kpicount,kpidate):
 @app.route('/webhook', methods=['POST'])
 def webhook():
 	req = request.get_json(silent=True, force=True)
-	phone_no = request.form.get('From')
 	fulfillmentText = ''
 	sum = 0
+	sessiondetail = req['session'].split('/')[-1]
+	whatsupno = sessiondetail.split('+')[-1]
 	query_result = req.get('queryResult')
 	if query_result.get('action') == 'orderinfo':
 		num1 = int(query_result.get('parameters').get('number'))
@@ -44,8 +45,9 @@ def webhook():
 		datestr = str(query_result.get('parameters').get('date'))
 		print('here num1 = {0}'.format(datestr[:10]))
 		kpidate = datetime.strptime(datestr[:10],'%Y-%m-%d').date()
+		# print('here it is {0}'.format(whatsupno))
 		userid = '1111'
-		message = kpiinsertion(phone_no,userid,kpicount,kpidate)
+		message = kpiinsertion(whatsupno,userid,kpicount,kpidate)
 		fulfillmentText = 'Your kpi {0} on \n {1} is captured!!!'.format(kpicount,kpidate)
 		return {
 		"fulfillmentText": fulfillmentText,
