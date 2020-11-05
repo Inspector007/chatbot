@@ -27,10 +27,12 @@ def kpiinsertion(contactno,userid,kpicount,kpidate):
 @app.route('/webhook', methods=['POST'])
 def webhook():
 	req = request.get_json(silent=True, force=True)
+	phone_no = request.form.get('From')
 	fulfillmentText = ''
 	sum = 0
 	sessiondetail = req['session'].split('/')[-1]
-	whatsupno = sessiondetail.split('+')[-1]
+	whatsupno = sessiondetail.split('+')[-1][2:]
+	# print("whatsupno {0}".format(whatsupno))
 	query_result = req.get('queryResult')
 	if query_result.get('action') == 'orderinfo':
 		num1 = int(query_result.get('parameters').get('number'))
@@ -55,7 +57,6 @@ def webhook():
 		"source": "webhookdata"
 		}
 	msg = request.form.get('Body')
-	phone_no = request.form.get('From')
 	reply = fetch_reply(msg, phone_no)
 	"""
 	if(msg.lower() == "hello"):
@@ -74,7 +75,6 @@ def reply():
 	msg = request.form.get('Body')
 	phone_no = request.form.get('From')
 	reply = fetch_reply(msg, phone_no)
-	print(phone_no+' aaya yha pe')
 	"""
 	if(msg.lower() == "hello"):
 		reply = "Hi! \n How can i help you?" 
